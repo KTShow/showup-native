@@ -1,0 +1,6 @@
+# Keep everything LF — the CI builds run on macOS.
+* text=auto eol=lf
+*.png binary
+*.p8 binary
+*.p12 binary
+*.mobileprovision binary

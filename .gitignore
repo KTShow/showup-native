@@ -1,0 +1,20 @@
+node_modules/
+.DS_Store
+
+# CocoaPods — restored by `pod install` on the CI Mac
+ios/App/Pods/
+ios/App/Podfile.lock
+
+# Xcode user state
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Build output
+ios/App/build/
+DerivedData/
+
+# Fastlane / CI secrets
+*.p8
+*.p12
+*.mobileprovision

@@ -1,0 +1,17 @@
+{
+  "name": "showup-native",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native iOS shell for ShowUp. Wraps the live web app at https://showuproom.com in a Capacitor WebView. Web changes ship via the showup-app repo + Vercel; this repo only changes when the native shell or a plugin does.",
+  "scripts": {
+    "sync": "cap sync ios",
+    "open:ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

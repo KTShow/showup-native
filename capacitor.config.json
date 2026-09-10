@@ -1,0 +1,12 @@
+{
+  "appId": "com.showuproom.app",
+  "appName": "ShowUp",
+  "webDir": "www",
+  "server": {
+    "url": "https://showuproom.com",
+    "cleartext": false
+  },
+  "ios": {
+    "contentInset": "always"
+  }
+}
