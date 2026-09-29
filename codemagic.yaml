@@ -24,7 +24,7 @@ workflows:
         bundle_identifier: com.showuproom.app
       vars:
         BUNDLE_ID: "com.showuproom.app"
-        APP_STORE_APPLE_ID: 0000000000   # <-- replace with the app's numeric Apple ID
+        APP_STORE_APPLE_ID: 6817449286
       node: 20
       xcode: latest
       cocoapods: default
