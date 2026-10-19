@@ -9,5 +9,14 @@
   "ios": {
     "contentInset": "never",
     "appendUserAgent": "ShowUpCover"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
   }
 }
